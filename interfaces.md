@@ -1,5 +1,5 @@
 - Rocket Tube OD: 2in (Considering 3in)
-- Rocket Tube Thickness: 0.125in
+- Rocket Tube Thickness: 0.049in
 - Nitrogen initial pressure: ~1000psi
 - Target Liftoff TWR: 5
 
@@ -11,7 +11,7 @@ Thrust
 Mass flowrate
 Pressure
 
-Thrust: 5 * wet weight. (60-80 lb)
+Thrust: 5 * wet weight.
 Pressure: ~500psi (for a 1000 psi 0.5 pressure drop at injector)
 
 mdot set by this
