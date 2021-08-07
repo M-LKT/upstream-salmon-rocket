@@ -1,9 +1,0 @@
-% Settings and variables
-
-length_press = 18; %in
-length_LOX = 16; %in
-length_fuel = 10; %in
-
-density_press = 0.077; %g/cm^3
-LOX_p = 1.14;
-fuel_
