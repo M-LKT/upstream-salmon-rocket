@@ -1,0 +1,7 @@
+
+*.BD2
+*.BDF
+*.CWR
+cad/rocket/press-sim-assy-Pressure Test.LOG
+*.MFC
+cad/rocket/tube-Pressure Bolt Stress Concentration.LOG
