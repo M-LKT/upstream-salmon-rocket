@@ -1,0 +1,5 @@
+0.528117in center - vent
+0.240000in inlet - vent
+0.026500in extra pneu fit gap to piston
+1.3745in bore depth
+ORB 3/8-24

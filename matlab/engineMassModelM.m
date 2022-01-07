@@ -1,8 +1,8 @@
 % Settings and variables
 
-press_l = 18; %in
-LOX_l = 16; %in
-fuel_l = 10; %in
+press_l = 18*3/4; %in
+LOX_l = 16*3/4 - 1; %in (-1 inch for ullage)
+fuel_l = 10*3/4 - 1; %in
 
 press_rho = 0.077; %g/cm^3
 LOX_rho = 1.14;
@@ -17,7 +17,11 @@ fuel_vol = fuel_l * pi() * (tube_id/2)^2;
 
 prop_vol = LOX_vol + fuel_vol; %in^3
 
-m_i = 1.09769264; %kg
+press_m_i = press_vol *16.3871 * press_rho / 1000;
+LOX_m_i = LOX_vol*16.3871 * LOX_rho / 1000;
+fuel_m_i = fuel_vol*16.3871 * fuel_rho / 1000;
+
+m_i = LOX_m_i + fuel_m_i; %kg
 p_i = 1000; %psi
 mdot_i = 0.0697; %kg/s
 
@@ -30,7 +34,7 @@ average_rho = (LOX_rho*LOX_l + fuel_rho*fuel_l)/(LOX_l+fuel_l); %g/mL
 % when mass = liftoff mass, pressure = liftoff pressure
 % when mass = 0, pressure = ~400psi
 
-prop_mass_i = 1.0976926; %kg
+% prop_mass_i = 1.0976926; %kg
 
 flowrate_gain = 0.000042386326;
 flowrate_offset = 0.02812874067;
