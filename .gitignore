@@ -6,3 +6,6 @@ cad/rocket/press-sim-assy-Pressure Test.LOG
 *.MFC
 cad/rocket/tube-Pressure Bolt Stress Concentration.LOG
 cad/rocket/console.log
+~$*.SLDASM
+~$*.SLDDRW
+~$*.SLDPRT
