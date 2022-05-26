@@ -2008,3 +2008,13 @@ Message: DisplayVresionUpdatePage() sw3DPrintConnector undefined
 Source: file:///C:/Users/Makar/AppData/Local/Temp/1/swcachedir/SWMarketplaceAddin/SWVersionUpdate.html?updateRequired=True&mandatory=True&newVersion=6.30.1030
 Line: 179
 -----------------------
+Level: Info
+Message: DisplayVresionUpdatePage() sw3DPrintConnector undefined
+Source: file:///C:/Users/Makar/AppData/Local/Temp/1/swcachedir/SWMarketplaceAddin/SWVersionUpdate.html?updateRequired=True&mandatory=True&newVersion=6.30.1030
+Line: 179
+-----------------------
+Level: Info
+Message: DisplayVresionUpdatePage() sw3DPrintConnector undefined
+Source: file:///C:/Users/Makar/AppData/Local/Temp/1/swcachedir/SWMarketplaceAddin/SWVersionUpdate.html?updateRequired=True&mandatory=True&newVersion=6.30.2026
+Line: 179
+-----------------------
